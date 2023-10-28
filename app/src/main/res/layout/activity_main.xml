@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Tashbee App"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:gravity="center"
+
+
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="302dp"
+        android:layout_height="252dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="100dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Count"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/buttonadd"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
+        android:gravity="center"
+        android:text="Addone"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/buttonsub"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Subone"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/black"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/buttonreset"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:backgroundTint="#000000"
+        android:gravity="center"
+        android:text="reset"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
